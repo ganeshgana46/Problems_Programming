@@ -5,7 +5,7 @@ public class ReverseNumber {
 	public void print(int num) {
 		int backup = num;
 		int rev = 0;
-		while(num!=0) {
+		while(num>0) {
 			rev = rev*10 + num%10;
 			num = num/10;
 		}
