@@ -10,7 +10,7 @@ public class Armstrong {
 			num = num/10;
 		}
 		System.out.println(sum);
-		if(backup == num) {
+		if(backup == sum) {
 			System.out.println("Armstrong Number");
 		}else {
 			System.out.println("Not Armstrong Number");
